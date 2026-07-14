@@ -83,9 +83,9 @@
     overflow: hidden;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
   }
-  @media (min-width: 421px) {
+  @media (min-width: 768px) {
     .phone {
-      width: min(420px, 32vw);
+      width: min(420px, calc(100vw - 48px));
       height: min(820px, 88vh);
       border-radius: 42px;
       border: 10px solid #241d20;
@@ -509,7 +509,7 @@
     margin-bottom: 22px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 767px) {
     body {
       background: linear-gradient(180deg, #fff7df 0%, #fff0f5 100%);
     }
